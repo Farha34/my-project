@@ -32,4 +32,31 @@
     }
     .banner-container{
         display: flex;
+        justify-content: space-around;
+        height: 100vh;
+        /* border: 2px solid grey ; */
+        align-items: center;
+        color: rgb(176, 196, 213);
+        background-image: url("./photo/background.png"),
+        linear-gradient(45deg,#262525,#130c0c);
+
     }
+.text-bold{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.paragraph{
+    font-size: 25px;
+    margin-top: 13px ;
+    padding: 13px;
+}
+.bt{
+    padding: 10px 20px ;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+}
+.bt:hover{
+    color: cyan;
+}
