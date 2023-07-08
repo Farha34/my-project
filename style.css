@@ -1,29 +1,35 @@
 *{
-    margin: 0px; 
+    margin: 0px;
     padding: 0px;
- }
- .menu-container{
-    background-color: rgb(76, 71, 71); 
-    padding:20px ;
+}
+.menu-container{
     display: flex;
-    align-items: center;
     justify-content: space-around;
-    
- .logo{
-     width: 120px;
- }
- .menu{
-     color: white;
-     list-style: none;
-     display: flex;
- 
- }
- .item{
-     margin-right: 10px;
-     padding: 7px;
-     font-size: 16px;
-     cursor: pointer;
- }
- .item:hover{
-        color: orange;
+    background-color: black;
+    padding: 12px;
+  
+}.menu{
+    color: white;
+    display: flex;
+    list-style: none;
+}
+.item{
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.item:hover{
+    color: orange;
+}
+.logo{
+    width: 200px;
+    padding: 5px;
+}
+    .banner-photo{
+        width: 300px;
+      
+    }
+    .banner-container{
+        display: flex;
     }
