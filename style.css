@@ -60,3 +60,45 @@
 .bt:hover{
     color: cyan;
 }
+.banner-img{
+    width: 300px;
+    padding: 80px;
+ 
+}
+.about-container{
+    display: flex;
+    justify-content:space-around;
+}
+.title-about{
+    padding: 50px;
+    color: darkgreen;
+    font-size: 50px;
+}
+.services-title{
+   text-align: center;
+   font-size: 40px;
+}
+
+.box{
+    width: 200px;
+    height: 230px;
+    box-shadow: 4px 4px 15px grey;
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 15px;
+
+}
+.icon{
+    width: 30px;
+}
+.btn{
+    background-color: rgb(221, 36, 221);
+    margin-top: 30px;
+    
+}
+.box-title{
+    padding: 10px;
+}
+.box-para{
+    padding: 10px;
+}
